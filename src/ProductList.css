@@ -3,7 +3,22 @@ body, h1, ul {
     margin: 0;
     padding: 0;
 }
+.cart {
+  position: relative;
+  display: inline-block;
+}
 
+.cart-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  font-size: 14px;
+  padding: 2px 7px;
+  border-radius: 50%;
+  font-weight: bold;
+}
 
 /* Set a background color */
 body {
